@@ -5,7 +5,7 @@ def line(line)
   else
     message = "The line is currently:"
     line.each_with_index {|name, index| message << " #{index + 1}. #{name}"}
-    message
+    puts message
   end
 end
 
