@@ -10,7 +10,7 @@ def line(line)
 end
 
 def take_a_number(line, customer)
-  line << customer.split
+  line << customer
 end
 
 def now_serving(line)
